@@ -1,0 +1,1159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096A23DE1CD344C9006CD3C8 /* RRYUserInfoUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A23DD1CD344C9006CD3C8 /* RRYUserInfoUserCell.m */; };
+		096A23E11CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A23E01CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.m */; };
+		47013DA21CBB3130008D90B8 /* RRYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 47013DA11CBB3130008D90B8 /* RRYCard.m */; };
+		4701EB931CC5BEE7003D12E1 /* RRYNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701EB921CC5BEE7003D12E1 /* RRYNetworkTool.m */; };
+		4701EB971CC5CCFD003D12E1 /* RRYProductTypeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701EB961CC5CCFD003D12E1 /* RRYProductTypeList.m */; };
+		4701EB9A1CC60194003D12E1 /* RRYTemplateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701EB991CC60194003D12E1 /* RRYTemplateList.m */; };
+		4701EB9D1CC62A1D003D12E1 /* RRYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701EB9C1CC62A1D003D12E1 /* RRYProgressHUD.m */; };
+		4701EBA01CC6385F003D12E1 /* RRYCardTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701EB9F1CC6385F003D12E1 /* RRYCardTemplate.m */; };
+		4703764D1CB5F62E0099C015 /* RRYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703764C1CB5F62E0099C015 /* RRYBaseNavigationController.m */; };
+		470376501CB5F6800099C015 /* RRYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703764F1CB5F6800099C015 /* RRYBaseTabBarController.m */; };
+		470376531CB5F6DA0099C015 /* RRYRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376521CB5F6DA0099C015 /* RRYRootTabBarController.m */; };
+		470376581CB5F9C10099C015 /* RRYRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376571CB5F9C10099C015 /* RRYRootNavigationController.m */; };
+		4703765F1CB5FA750099C015 /* RRYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703765E1CB5FA750099C015 /* RRYHomeViewController.m */; };
+		470376621CB5FA820099C015 /* RRYCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376611CB5FA820099C015 /* RRYCartViewController.m */; };
+		470376651CB5FA8F0099C015 /* RRYUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376641CB5FA8F0099C015 /* RRYUserInfoViewController.m */; };
+		4703767A1CB601D10099C015 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703766D1CB601D10099C015 /* TAAbstractDotView.m */; };
+		4703767B1CB601D10099C015 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703766F1CB601D10099C015 /* TAAnimatedDotView.m */; };
+		4703767C1CB601D10099C015 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376711CB601D10099C015 /* TADotView.m */; };
+		4703767D1CB601D10099C015 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376731CB601D10099C015 /* TAPageControl.m */; };
+		4703767E1CB601D10099C015 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376751CB601D10099C015 /* SDCollectionViewCell.m */; };
+		4703767F1CB601D10099C015 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376771CB601D10099C015 /* SDCycleScrollView.m */; };
+		470376801CB601D10099C015 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376791CB601D10099C015 /* UIView+SDExtension.m */; };
+		470376841CB6063E0099C015 /* RRYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376831CB6063E0099C015 /* RRYBaseView.m */; };
+		470376871CB606B50099C015 /* RRYCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376861CB606B50099C015 /* RRYCategoryView.m */; };
+		4703768A1CB60CC10099C015 /* RRYBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376891CB60CC10099C015 /* RRYBaseButton.m */; };
+		4703768E1CB63A440099C015 /* RRYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703768D1CB63A440099C015 /* RRYBaseTableViewCell.m */; };
+		470376911CB63A650099C015 /* RRYCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376901CB63A650099C015 /* RRYCategoryCell.m */; };
+		470376941CB63C150099C015 /* RRYAdsScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376931CB63C150099C015 /* RRYAdsScrollCell.m */; };
+		470376971CB648110099C015 /* RRYCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376961CB648110099C015 /* RRYCartCell.m */; };
+		4703769A1CB6491F0099C015 /* RRYCartUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 470376991CB6491F0099C015 /* RRYCartUserCell.m */; };
+		4703769D1CB666EC0099C015 /* RRYCartUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703769C1CB666EC0099C015 /* RRYCartUserView.m */; };
+		4709B4CF1CBF394A00D7D842 /* RRYCardText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709B4CE1CBF394A00D7D842 /* RRYCardText.m */; };
+		4709B4D11CBFA40700D7D842 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709B4D01CBFA40700D7D842 /* QuartzCore.framework */; };
+		4709B4D51CBFAA6400D7D842 /* RRYCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709B4D41CBFAA6400D7D842 /* RRYCardModel.m */; };
+		4709B4D81CBFAB4800D7D842 /* RRYCardSingleFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709B4D71CBFAB4800D7D842 /* RRYCardSingleFace.m */; };
+		4709B4DB1CBFABE700D7D842 /* RRYCardTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709B4DA1CBFABE700D7D842 /* RRYCardTextModel.m */; };
+		470C4EE41CBDEDB20048431A /* Fonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 470C4EE31CBDEDB20048431A /* Fonts.plist */; };
+		470C4EE71CBE525A0048431A /* RRYColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C4EE61CBE525A0048431A /* RRYColorPickerView.m */; };
+		471843811CBC9E2C006B260A /* UIView+GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471843801CBC9E2C006B260A /* UIView+GetController.m */; };
+		471843841CBCE532006B260A /* RRYFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 471843831CBCE532006B260A /* RRYFont.m */; };
+		471843991CBCFD50006B260A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471843981CBCFD50006B260A /* CoreText.framework */; };
+		47F7C42B1CCB257E0069110B /* RRYCartDealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F7C42A1CCB257E0069110B /* RRYCartDealView.m */; };
+		47F922231CB34C76003EA01A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F922221CB34C76003EA01A /* main.m */; };
+		47F922261CB34C76003EA01A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F922251CB34C76003EA01A /* AppDelegate.m */; };
+		47F9222C1CB34C76003EA01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F9222A1CB34C76003EA01A /* Main.storyboard */; };
+		47F9222E1CB34C76003EA01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F9222D1CB34C76003EA01A /* Assets.xcassets */; };
+		47F922311CB34C76003EA01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F9222F1CB34C76003EA01A /* LaunchScreen.storyboard */; };
+		47F9223C1CB34C76003EA01A /* RRYPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F9223B1CB34C76003EA01A /* RRYPrintTests.m */; };
+		47F922471CB34C76003EA01A /* RRYPrintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F922461CB34C76003EA01A /* RRYPrintUITests.m */; };
+		47F9225C1CB35440003EA01A /* RRYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F9225B1CB35440003EA01A /* RRYBaseViewController.m */; };
+		47F9225F1CB35457003EA01A /* RRYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F9225E1CB35457003EA01A /* RRYBaseModel.m */; };
+		47FE083E1CC4CC9000620074 /* LBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE083D1CC4CC9000620074 /* LBProgressHUD.m */; };
+		47FE08411CC4CF4000620074 /* RRYMineTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE08401CC4CF4000620074 /* RRYMineTable.m */; };
+		47FE08441CC4D2E600620074 /* RRYLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE08431CC4D2E600620074 /* RRYLoginController.m */; };
+		47FEAFC51CB8FB1400DC1176 /* RRYBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEAFC41CB8FB1400DC1176 /* RRYBaseTextField.m */; };
+		47FEAFCC1CB8FCB800DC1176 /* NSString+ZLStringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEAFCB1CB8FCB800DC1176 /* NSString+ZLStringSize.m */; };
+		47FEAFCF1CB901D000DC1176 /* RRYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEAFCE1CB901D000DC1176 /* RRYBaseTableView.m */; };
+		47FEAFD21CB90B4200DC1176 /* RRYCardTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEAFD11CB90B4200DC1176 /* RRYCardTextEditor.m */; };
+		47FEED461CB74B00009B65B0 /* RRYCardsWaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED451CB74B00009B65B0 /* RRYCardsWaterFallController.m */; };
+		47FEED4A1CB75A60009B65B0 /* RRYBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED491CB75A60009B65B0 /* RRYBaseCollectionViewCell.m */; };
+		47FEED4D1CB75A80009B65B0 /* RRYCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED4C1CB75A80009B65B0 /* RRYCardCell.m */; };
+		47FEED501CB77AFD009B65B0 /* RRYCardHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED4F1CB77AFD009B65B0 /* RRYCardHeaderView.m */; };
+		47FEED531CB77B0B009B65B0 /* RRYCardFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED521CB77B0B009B65B0 /* RRYCardFooterView.m */; };
+		47FEED561CB784C2009B65B0 /* RRYCardEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED551CB784C2009B65B0 /* RRYCardEditorController.m */; };
+		47FEED591CB787BA009B65B0 /* RRYCardDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED581CB787BA009B65B0 /* RRYCardDisplayView.m */; };
+		47FEED5F1CB78956009B65B0 /* RRYCardEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED5E1CB78956009B65B0 /* RRYCardEditorView.m */; };
+		47FEED681CB7A842009B65B0 /* RRYCardUtilitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FEED671CB7A842009B65B0 /* RRYCardUtilitiesView.m */; };
+		47FF4FA11CC07E780061C998 /* Card.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47FF4FA01CC07E780061C998 /* Card.plist */; };
+		F2F67F33ED3F7DBF1B683CA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9FC1E3D5E84F10FA968ACA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F922381CB34C76003EA01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F922161CB34C76003EA01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F9221D1CB34C76003EA01A;
+			remoteInfo = RRYPrint;
+		};
+		47F922431CB34C76003EA01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F922161CB34C76003EA01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F9221D1CB34C76003EA01A;
+			remoteInfo = RRYPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096A23DC1CD344C9006CD3C8 /* RRYUserInfoUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYUserInfoUserCell.h; sourceTree = "<group>"; };
+		096A23DD1CD344C9006CD3C8 /* RRYUserInfoUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYUserInfoUserCell.m; sourceTree = "<group>"; };
+		096A23DF1CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYUserInfoCartBtnCell.h; sourceTree = "<group>"; };
+		096A23E01CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYUserInfoCartBtnCell.m; sourceTree = "<group>"; };
+		47013DA11CBB3130008D90B8 /* RRYCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCard.m; sourceTree = "<group>"; };
+		4701EB911CC5BEE7003D12E1 /* RRYNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYNetworkTool.h; sourceTree = "<group>"; };
+		4701EB921CC5BEE7003D12E1 /* RRYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYNetworkTool.m; sourceTree = "<group>"; };
+		4701EB941CC5CA9E003D12E1 /* RRYUrlMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRYUrlMacro.h; sourceTree = "<group>"; };
+		4701EB951CC5CCFD003D12E1 /* RRYProductTypeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYProductTypeList.h; sourceTree = "<group>"; };
+		4701EB961CC5CCFD003D12E1 /* RRYProductTypeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYProductTypeList.m; sourceTree = "<group>"; };
+		4701EB981CC60194003D12E1 /* RRYTemplateList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYTemplateList.h; sourceTree = "<group>"; };
+		4701EB991CC60194003D12E1 /* RRYTemplateList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYTemplateList.m; sourceTree = "<group>"; };
+		4701EB9B1CC62A1D003D12E1 /* RRYProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYProgressHUD.h; sourceTree = "<group>"; };
+		4701EB9C1CC62A1D003D12E1 /* RRYProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYProgressHUD.m; sourceTree = "<group>"; };
+		4701EB9E1CC6385F003D12E1 /* RRYCardTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardTemplate.h; sourceTree = "<group>"; };
+		4701EB9F1CC6385F003D12E1 /* RRYCardTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardTemplate.m; sourceTree = "<group>"; };
+		4703764B1CB5F62E0099C015 /* RRYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseNavigationController.h; sourceTree = "<group>"; };
+		4703764C1CB5F62E0099C015 /* RRYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseNavigationController.m; sourceTree = "<group>"; };
+		4703764E1CB5F6800099C015 /* RRYBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseTabBarController.h; sourceTree = "<group>"; };
+		4703764F1CB5F6800099C015 /* RRYBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseTabBarController.m; sourceTree = "<group>"; };
+		470376511CB5F6DA0099C015 /* RRYRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYRootTabBarController.h; sourceTree = "<group>"; };
+		470376521CB5F6DA0099C015 /* RRYRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYRootTabBarController.m; sourceTree = "<group>"; };
+		470376541CB5F7110099C015 /* RRYHeaders.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRYHeaders.pch; sourceTree = "<group>"; };
+		470376551CB5F8B70099C015 /* RRYHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRYHeaders.h; sourceTree = "<group>"; };
+		470376561CB5F9C10099C015 /* RRYRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYRootNavigationController.h; sourceTree = "<group>"; };
+		470376571CB5F9C10099C015 /* RRYRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYRootNavigationController.m; sourceTree = "<group>"; };
+		4703765D1CB5FA750099C015 /* RRYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYHomeViewController.h; sourceTree = "<group>"; };
+		4703765E1CB5FA750099C015 /* RRYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYHomeViewController.m; sourceTree = "<group>"; };
+		470376601CB5FA820099C015 /* RRYCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCartViewController.h; sourceTree = "<group>"; };
+		470376611CB5FA820099C015 /* RRYCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCartViewController.m; sourceTree = "<group>"; };
+		470376631CB5FA8F0099C015 /* RRYUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYUserInfoViewController.h; sourceTree = "<group>"; };
+		470376641CB5FA8F0099C015 /* RRYUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYUserInfoViewController.m; sourceTree = "<group>"; };
+		4703766C1CB601D10099C015 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		4703766D1CB601D10099C015 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		4703766E1CB601D10099C015 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		4703766F1CB601D10099C015 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		470376701CB601D10099C015 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		470376711CB601D10099C015 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		470376721CB601D10099C015 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		470376731CB601D10099C015 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		470376741CB601D10099C015 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		470376751CB601D10099C015 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		470376761CB601D10099C015 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		470376771CB601D10099C015 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		470376781CB601D10099C015 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		470376791CB601D10099C015 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		470376821CB6063E0099C015 /* RRYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseView.h; sourceTree = "<group>"; };
+		470376831CB6063E0099C015 /* RRYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseView.m; sourceTree = "<group>"; };
+		470376851CB606B50099C015 /* RRYCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCategoryView.h; sourceTree = "<group>"; };
+		470376861CB606B50099C015 /* RRYCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCategoryView.m; sourceTree = "<group>"; };
+		470376881CB60CC10099C015 /* RRYBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseButton.h; sourceTree = "<group>"; };
+		470376891CB60CC10099C015 /* RRYBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseButton.m; sourceTree = "<group>"; };
+		4703768B1CB635F90099C015 /* RRYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRYMacro.h; sourceTree = "<group>"; };
+		4703768C1CB63A440099C015 /* RRYBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseTableViewCell.h; sourceTree = "<group>"; };
+		4703768D1CB63A440099C015 /* RRYBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseTableViewCell.m; sourceTree = "<group>"; };
+		4703768F1CB63A650099C015 /* RRYCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCategoryCell.h; sourceTree = "<group>"; };
+		470376901CB63A650099C015 /* RRYCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCategoryCell.m; sourceTree = "<group>"; };
+		470376921CB63C150099C015 /* RRYAdsScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYAdsScrollCell.h; sourceTree = "<group>"; };
+		470376931CB63C150099C015 /* RRYAdsScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYAdsScrollCell.m; sourceTree = "<group>"; };
+		470376951CB648110099C015 /* RRYCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCartCell.h; sourceTree = "<group>"; };
+		470376961CB648110099C015 /* RRYCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCartCell.m; sourceTree = "<group>"; };
+		470376981CB6491F0099C015 /* RRYCartUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCartUserCell.h; sourceTree = "<group>"; };
+		470376991CB6491F0099C015 /* RRYCartUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCartUserCell.m; sourceTree = "<group>"; };
+		4703769B1CB666EC0099C015 /* RRYCartUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCartUserView.h; sourceTree = "<group>"; };
+		4703769C1CB666EC0099C015 /* RRYCartUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCartUserView.m; sourceTree = "<group>"; };
+		4709B4CD1CBF394A00D7D842 /* RRYCardText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardText.h; sourceTree = "<group>"; };
+		4709B4CE1CBF394A00D7D842 /* RRYCardText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardText.m; sourceTree = "<group>"; };
+		4709B4D01CBFA40700D7D842 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4709B4D31CBFAA6400D7D842 /* RRYCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardModel.h; sourceTree = "<group>"; };
+		4709B4D41CBFAA6400D7D842 /* RRYCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardModel.m; sourceTree = "<group>"; };
+		4709B4D61CBFAB4800D7D842 /* RRYCardSingleFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardSingleFace.h; sourceTree = "<group>"; };
+		4709B4D71CBFAB4800D7D842 /* RRYCardSingleFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardSingleFace.m; sourceTree = "<group>"; };
+		4709B4D91CBFABE700D7D842 /* RRYCardTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardTextModel.h; sourceTree = "<group>"; };
+		4709B4DA1CBFABE700D7D842 /* RRYCardTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardTextModel.m; sourceTree = "<group>"; };
+		470C4EE31CBDEDB20048431A /* Fonts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fonts.plist; sourceTree = "<group>"; };
+		470C4EE51CBE525A0048431A /* RRYColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYColorPickerView.h; sourceTree = "<group>"; };
+		470C4EE61CBE525A0048431A /* RRYColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYColorPickerView.m; sourceTree = "<group>"; };
+		4718437F1CBC9E2C006B260A /* UIView+GetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetController.h"; sourceTree = "<group>"; };
+		471843801CBC9E2C006B260A /* UIView+GetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetController.m"; sourceTree = "<group>"; };
+		471843821CBCE532006B260A /* RRYFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYFont.h; sourceTree = "<group>"; };
+		471843831CBCE532006B260A /* RRYFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYFont.m; sourceTree = "<group>"; };
+		471843981CBCFD50006B260A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		47F7C4291CCB257E0069110B /* RRYCartDealView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCartDealView.h; sourceTree = "<group>"; };
+		47F7C42A1CCB257E0069110B /* RRYCartDealView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCartDealView.m; sourceTree = "<group>"; };
+		47F9221E1CB34C76003EA01A /* RRYPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRYPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F922221CB34C76003EA01A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47F922241CB34C76003EA01A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47F922251CB34C76003EA01A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47F9222B1CB34C76003EA01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F9222D1CB34C76003EA01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F922301CB34C76003EA01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F922321CB34C76003EA01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F922371CB34C76003EA01A /* RRYPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRYPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F9223B1CB34C76003EA01A /* RRYPrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRYPrintTests.m; sourceTree = "<group>"; };
+		47F9223D1CB34C76003EA01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F922421CB34C76003EA01A /* RRYPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRYPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F922461CB34C76003EA01A /* RRYPrintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRYPrintUITests.m; sourceTree = "<group>"; };
+		47F922481CB34C76003EA01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F9225A1CB35440003EA01A /* RRYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseViewController.h; sourceTree = "<group>"; };
+		47F9225B1CB35440003EA01A /* RRYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseViewController.m; sourceTree = "<group>"; };
+		47F9225D1CB35457003EA01A /* RRYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseModel.h; sourceTree = "<group>"; };
+		47F9225E1CB35457003EA01A /* RRYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseModel.m; sourceTree = "<group>"; };
+		47FE083C1CC4CC9000620074 /* LBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressHUD.h; sourceTree = "<group>"; };
+		47FE083D1CC4CC9000620074 /* LBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressHUD.m; sourceTree = "<group>"; };
+		47FE083F1CC4CF4000620074 /* RRYMineTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYMineTable.h; sourceTree = "<group>"; };
+		47FE08401CC4CF4000620074 /* RRYMineTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYMineTable.m; sourceTree = "<group>"; };
+		47FE08421CC4D2E600620074 /* RRYLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYLoginController.h; sourceTree = "<group>"; };
+		47FE08431CC4D2E600620074 /* RRYLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYLoginController.m; sourceTree = "<group>"; };
+		47FEAFC31CB8FB1400DC1176 /* RRYBaseTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseTextField.h; sourceTree = "<group>"; };
+		47FEAFC41CB8FB1400DC1176 /* RRYBaseTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseTextField.m; sourceTree = "<group>"; };
+		47FEAFCA1CB8FCB800DC1176 /* NSString+ZLStringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZLStringSize.h"; sourceTree = "<group>"; };
+		47FEAFCB1CB8FCB800DC1176 /* NSString+ZLStringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLStringSize.m"; sourceTree = "<group>"; };
+		47FEAFCD1CB901D000DC1176 /* RRYBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseTableView.h; sourceTree = "<group>"; };
+		47FEAFCE1CB901D000DC1176 /* RRYBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseTableView.m; sourceTree = "<group>"; };
+		47FEAFD01CB90B4200DC1176 /* RRYCardTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardTextEditor.h; sourceTree = "<group>"; };
+		47FEAFD11CB90B4200DC1176 /* RRYCardTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardTextEditor.m; sourceTree = "<group>"; };
+		47FEED441CB74B00009B65B0 /* RRYCardsWaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardsWaterFallController.h; sourceTree = "<group>"; };
+		47FEED451CB74B00009B65B0 /* RRYCardsWaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardsWaterFallController.m; sourceTree = "<group>"; };
+		47FEED481CB75A60009B65B0 /* RRYBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		47FEED491CB75A60009B65B0 /* RRYBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		47FEED4B1CB75A80009B65B0 /* RRYCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardCell.h; sourceTree = "<group>"; };
+		47FEED4C1CB75A80009B65B0 /* RRYCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardCell.m; sourceTree = "<group>"; };
+		47FEED4E1CB77AFD009B65B0 /* RRYCardHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardHeaderView.h; sourceTree = "<group>"; };
+		47FEED4F1CB77AFD009B65B0 /* RRYCardHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardHeaderView.m; sourceTree = "<group>"; };
+		47FEED511CB77B0B009B65B0 /* RRYCardFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardFooterView.h; sourceTree = "<group>"; };
+		47FEED521CB77B0B009B65B0 /* RRYCardFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardFooterView.m; sourceTree = "<group>"; };
+		47FEED541CB784C2009B65B0 /* RRYCardEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardEditorController.h; sourceTree = "<group>"; };
+		47FEED551CB784C2009B65B0 /* RRYCardEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardEditorController.m; sourceTree = "<group>"; };
+		47FEED571CB787BA009B65B0 /* RRYCardDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardDisplayView.h; sourceTree = "<group>"; };
+		47FEED581CB787BA009B65B0 /* RRYCardDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardDisplayView.m; sourceTree = "<group>"; };
+		47FEED5D1CB78956009B65B0 /* RRYCardEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardEditorView.h; sourceTree = "<group>"; };
+		47FEED5E1CB78956009B65B0 /* RRYCardEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardEditorView.m; sourceTree = "<group>"; };
+		47FEED631CB7992F009B65B0 /* RRYCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCard.h; sourceTree = "<group>"; };
+		47FEED661CB7A842009B65B0 /* RRYCardUtilitiesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRYCardUtilitiesView.h; sourceTree = "<group>"; };
+		47FEED671CB7A842009B65B0 /* RRYCardUtilitiesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRYCardUtilitiesView.m; sourceTree = "<group>"; };
+		47FF4FA01CC07E780061C998 /* Card.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Card.plist; sourceTree = "<group>"; };
+		8EB4D984F287BF10EF26B0E1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9EA1BE1F4D2267570B2664C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9FC1E3D5E84F10FA968ACA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F9221B1CB34C76003EA01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709B4D11CBFA40700D7D842 /* QuartzCore.framework in Frameworks */,
+				471843991CBCFD50006B260A /* CoreText.framework in Frameworks */,
+				F2F67F33ED3F7DBF1B683CA4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F922341CB34C76003EA01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9223F1CB34C76003EA01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		470376591CB5FA4A0099C015 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				470376511CB5F6DA0099C015 /* RRYRootTabBarController.h */,
+				470376521CB5F6DA0099C015 /* RRYRootTabBarController.m */,
+				470376561CB5F9C10099C015 /* RRYRootNavigationController.h */,
+				470376571CB5F9C10099C015 /* RRYRootNavigationController.m */,
+			);
+			name = RootVC;
+			sourceTree = "<group>";
+		};
+		4703765A1CB5FA510099C015 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				4703765D1CB5FA750099C015 /* RRYHomeViewController.h */,
+				4703765E1CB5FA750099C015 /* RRYHomeViewController.m */,
+				47FEED441CB74B00009B65B0 /* RRYCardsWaterFallController.h */,
+				47FEED451CB74B00009B65B0 /* RRYCardsWaterFallController.m */,
+				47FEED541CB784C2009B65B0 /* RRYCardEditorController.h */,
+				47FEED551CB784C2009B65B0 /* RRYCardEditorController.m */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+		4703765B1CB5FA560099C015 /* CartVC */ = {
+			isa = PBXGroup;
+			children = (
+				470376601CB5FA820099C015 /* RRYCartViewController.h */,
+				470376611CB5FA820099C015 /* RRYCartViewController.m */,
+			);
+			name = CartVC;
+			sourceTree = "<group>";
+		};
+		4703765C1CB5FA5B0099C015 /* UserInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				470376631CB5FA8F0099C015 /* RRYUserInfoViewController.h */,
+				470376641CB5FA8F0099C015 /* RRYUserInfoViewController.m */,
+			);
+			name = UserInfoVC;
+			sourceTree = "<group>";
+		};
+		470376661CB6003C0099C015 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				470376851CB606B50099C015 /* RRYCategoryView.h */,
+				470376861CB606B50099C015 /* RRYCategoryView.m */,
+				4703768F1CB63A650099C015 /* RRYCategoryCell.h */,
+				470376901CB63A650099C015 /* RRYCategoryCell.m */,
+				470376921CB63C150099C015 /* RRYAdsScrollCell.h */,
+				470376931CB63C150099C015 /* RRYAdsScrollCell.m */,
+			);
+			name = HomeViews;
+			sourceTree = "<group>";
+		};
+		470376671CB600460099C015 /* CartViews */ = {
+			isa = PBXGroup;
+			children = (
+				470376951CB648110099C015 /* RRYCartCell.h */,
+				470376961CB648110099C015 /* RRYCartCell.m */,
+				470376981CB6491F0099C015 /* RRYCartUserCell.h */,
+				470376991CB6491F0099C015 /* RRYCartUserCell.m */,
+				4703769B1CB666EC0099C015 /* RRYCartUserView.h */,
+				4703769C1CB666EC0099C015 /* RRYCartUserView.m */,
+				47F7C4291CCB257E0069110B /* RRYCartDealView.h */,
+				47F7C42A1CCB257E0069110B /* RRYCartDealView.m */,
+			);
+			name = CartViews;
+			sourceTree = "<group>";
+		};
+		470376681CB6004B0099C015 /* UserInfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				47FE083F1CC4CF4000620074 /* RRYMineTable.h */,
+				47FE08401CC4CF4000620074 /* RRYMineTable.m */,
+				096A23DC1CD344C9006CD3C8 /* RRYUserInfoUserCell.h */,
+				096A23DD1CD344C9006CD3C8 /* RRYUserInfoUserCell.m */,
+				096A23DF1CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.h */,
+				096A23E01CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.m */,
+			);
+			name = UserInfoViews;
+			sourceTree = "<group>";
+		};
+		470376691CB601BA0099C015 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				47FE083B1CC4CC6100620074 /* HUD */,
+				47FEAFC91CB8FCA400DC1176 /* CalculateStringLength */,
+				4703766A1CB601D10099C015 /* SDCycleScrollView */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		4703766A1CB601D10099C015 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4703766B1CB601D10099C015 /* PageControl */,
+				470376741CB601D10099C015 /* SDCollectionViewCell.h */,
+				470376751CB601D10099C015 /* SDCollectionViewCell.m */,
+				470376761CB601D10099C015 /* SDCycleScrollView.h */,
+				470376771CB601D10099C015 /* SDCycleScrollView.m */,
+				470376781CB601D10099C015 /* UIView+SDExtension.h */,
+				470376791CB601D10099C015 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		4703766B1CB601D10099C015 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4703766C1CB601D10099C015 /* TAAbstractDotView.h */,
+				4703766D1CB601D10099C015 /* TAAbstractDotView.m */,
+				4703766E1CB601D10099C015 /* TAAnimatedDotView.h */,
+				4703766F1CB601D10099C015 /* TAAnimatedDotView.m */,
+				470376701CB601D10099C015 /* TADotView.h */,
+				470376711CB601D10099C015 /* TADotView.m */,
+				470376721CB601D10099C015 /* TAPageControl.h */,
+				470376731CB601D10099C015 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		470376811CB601EB0099C015 /* Macro&Headers */ = {
+			isa = PBXGroup;
+			children = (
+				470376541CB5F7110099C015 /* RRYHeaders.pch */,
+				4703768B1CB635F90099C015 /* RRYMacro.h */,
+				4701EB941CC5CA9E003D12E1 /* RRYUrlMacro.h */,
+			);
+			name = "Macro&Headers";
+			sourceTree = "<group>";
+		};
+		4709B4D21CBFAA4700D7D842 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				471843851CBCE55F006B260A /* Font */,
+				4709B4D31CBFAA6400D7D842 /* RRYCardModel.h */,
+				4709B4D41CBFAA6400D7D842 /* RRYCardModel.m */,
+				4709B4D61CBFAB4800D7D842 /* RRYCardSingleFace.h */,
+				4709B4D71CBFAB4800D7D842 /* RRYCardSingleFace.m */,
+				4709B4D91CBFABE700D7D842 /* RRYCardTextModel.h */,
+				4709B4DA1CBFABE700D7D842 /* RRYCardTextModel.m */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		471843851CBCE55F006B260A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				471843821CBCE532006B260A /* RRYFont.h */,
+				471843831CBCE532006B260A /* RRYFont.m */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		471843861CBCF840006B260A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				470C4EE31CBDEDB20048431A /* Fonts.plist */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		47F922151CB34C76003EA01A = {
+			isa = PBXGroup;
+			children = (
+				47F922201CB34C76003EA01A /* RRYPrint */,
+				47F9223A1CB34C76003EA01A /* RRYPrintTests */,
+				47F922451CB34C76003EA01A /* RRYPrintUITests */,
+				47F9221F1CB34C76003EA01A /* Products */,
+				C62C72FB959E9B8E0FD5AF2F /* Pods */,
+				5C25B4F0C14A654CCF4B5D62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47F9221F1CB34C76003EA01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F9221E1CB34C76003EA01A /* RRYPrint.app */,
+				47F922371CB34C76003EA01A /* RRYPrintTests.xctest */,
+				47F922421CB34C76003EA01A /* RRYPrintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F922201CB34C76003EA01A /* RRYPrint */ = {
+			isa = PBXGroup;
+			children = (
+				470376811CB601EB0099C015 /* Macro&Headers */,
+				470376691CB601BA0099C015 /* ThirdParty */,
+				47F922591CB35426003EA01A /* Base */,
+				47F922581CB34CC9003EA01A /* Tools */,
+				47F922571CB34CC4003EA01A /* ThirdParty */,
+				47F922561CB34CBF003EA01A /* Model */,
+				47F922551CB34CBA003EA01A /* Views */,
+				47F922541CB34CB3003EA01A /* Controllers */,
+				47F922211CB34C76003EA01A /* Supporting Files */,
+			);
+			path = RRYPrint;
+			sourceTree = "<group>";
+		};
+		47F922211CB34C76003EA01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F922241CB34C76003EA01A /* AppDelegate.h */,
+				47F922251CB34C76003EA01A /* AppDelegate.m */,
+				47F9222A1CB34C76003EA01A /* Main.storyboard */,
+				47F9222F1CB34C76003EA01A /* LaunchScreen.storyboard */,
+				47F922321CB34C76003EA01A /* Info.plist */,
+				47F922221CB34C76003EA01A /* main.m */,
+				470376551CB5F8B70099C015 /* RRYHeaders.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47F9223A1CB34C76003EA01A /* RRYPrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F9223B1CB34C76003EA01A /* RRYPrintTests.m */,
+				47F9223D1CB34C76003EA01A /* Info.plist */,
+			);
+			path = RRYPrintTests;
+			sourceTree = "<group>";
+		};
+		47F922451CB34C76003EA01A /* RRYPrintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F922461CB34C76003EA01A /* RRYPrintUITests.m */,
+				47F922481CB34C76003EA01A /* Info.plist */,
+			);
+			path = RRYPrintUITests;
+			sourceTree = "<group>";
+		};
+		47F922541CB34CB3003EA01A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47FE08451CC4D2ED00620074 /* LoginVC */,
+				4703765C1CB5FA5B0099C015 /* UserInfoVC */,
+				4703765B1CB5FA560099C015 /* CartVC */,
+				4703765A1CB5FA510099C015 /* HomeVC */,
+				470376591CB5FA4A0099C015 /* RootVC */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		47F922551CB34CBA003EA01A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				471843861CBCF840006B260A /* Font */,
+				47FEED471CB75A29009B65B0 /* CardsView */,
+				470376681CB6004B0099C015 /* UserInfoViews */,
+				470376671CB600460099C015 /* CartViews */,
+				470376661CB6003C0099C015 /* HomeViews */,
+				47F9222D1CB34C76003EA01A /* Assets.xcassets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		47F922561CB34CBF003EA01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4709B4D21CBFAA4700D7D842 /* Card */,
+				47FF4FA01CC07E780061C998 /* Card.plist */,
+				4701EB951CC5CCFD003D12E1 /* RRYProductTypeList.h */,
+				4701EB961CC5CCFD003D12E1 /* RRYProductTypeList.m */,
+				4701EB981CC60194003D12E1 /* RRYTemplateList.h */,
+				4701EB991CC60194003D12E1 /* RRYTemplateList.m */,
+				4701EB9E1CC6385F003D12E1 /* RRYCardTemplate.h */,
+				4701EB9F1CC6385F003D12E1 /* RRYCardTemplate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		47F922571CB34CC4003EA01A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		47F922581CB34CC9003EA01A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4718437F1CBC9E2C006B260A /* UIView+GetController.h */,
+				471843801CBC9E2C006B260A /* UIView+GetController.m */,
+				4701EB911CC5BEE7003D12E1 /* RRYNetworkTool.h */,
+				4701EB921CC5BEE7003D12E1 /* RRYNetworkTool.m */,
+				4701EB9B1CC62A1D003D12E1 /* RRYProgressHUD.h */,
+				4701EB9C1CC62A1D003D12E1 /* RRYProgressHUD.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		47F922591CB35426003EA01A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47F9225A1CB35440003EA01A /* RRYBaseViewController.h */,
+				47F9225B1CB35440003EA01A /* RRYBaseViewController.m */,
+				47F9225D1CB35457003EA01A /* RRYBaseModel.h */,
+				47F9225E1CB35457003EA01A /* RRYBaseModel.m */,
+				4703764B1CB5F62E0099C015 /* RRYBaseNavigationController.h */,
+				4703764C1CB5F62E0099C015 /* RRYBaseNavigationController.m */,
+				4703764E1CB5F6800099C015 /* RRYBaseTabBarController.h */,
+				4703764F1CB5F6800099C015 /* RRYBaseTabBarController.m */,
+				470376821CB6063E0099C015 /* RRYBaseView.h */,
+				470376831CB6063E0099C015 /* RRYBaseView.m */,
+				470376881CB60CC10099C015 /* RRYBaseButton.h */,
+				470376891CB60CC10099C015 /* RRYBaseButton.m */,
+				4703768C1CB63A440099C015 /* RRYBaseTableViewCell.h */,
+				4703768D1CB63A440099C015 /* RRYBaseTableViewCell.m */,
+				47FEED481CB75A60009B65B0 /* RRYBaseCollectionViewCell.h */,
+				47FEED491CB75A60009B65B0 /* RRYBaseCollectionViewCell.m */,
+				47FEAFC31CB8FB1400DC1176 /* RRYBaseTextField.h */,
+				47FEAFC41CB8FB1400DC1176 /* RRYBaseTextField.m */,
+				47FEAFCD1CB901D000DC1176 /* RRYBaseTableView.h */,
+				47FEAFCE1CB901D000DC1176 /* RRYBaseTableView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		47FE083B1CC4CC6100620074 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				47FE083C1CC4CC9000620074 /* LBProgressHUD.h */,
+				47FE083D1CC4CC9000620074 /* LBProgressHUD.m */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		47FE08451CC4D2ED00620074 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				47FE08421CC4D2E600620074 /* RRYLoginController.h */,
+				47FE08431CC4D2E600620074 /* RRYLoginController.m */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		47FEAFC91CB8FCA400DC1176 /* CalculateStringLength */ = {
+			isa = PBXGroup;
+			children = (
+				47FEAFCA1CB8FCB800DC1176 /* NSString+ZLStringSize.h */,
+				47FEAFCB1CB8FCB800DC1176 /* NSString+ZLStringSize.m */,
+			);
+			name = CalculateStringLength;
+			sourceTree = "<group>";
+		};
+		47FEED471CB75A29009B65B0 /* CardsView */ = {
+			isa = PBXGroup;
+			children = (
+				47FEED4B1CB75A80009B65B0 /* RRYCardCell.h */,
+				47FEED4C1CB75A80009B65B0 /* RRYCardCell.m */,
+				47FEED4E1CB77AFD009B65B0 /* RRYCardHeaderView.h */,
+				47FEED4F1CB77AFD009B65B0 /* RRYCardHeaderView.m */,
+				47FEED511CB77B0B009B65B0 /* RRYCardFooterView.h */,
+				47FEED521CB77B0B009B65B0 /* RRYCardFooterView.m */,
+				47FEED571CB787BA009B65B0 /* RRYCardDisplayView.h */,
+				47FEED581CB787BA009B65B0 /* RRYCardDisplayView.m */,
+				47FEED5D1CB78956009B65B0 /* RRYCardEditorView.h */,
+				47FEED5E1CB78956009B65B0 /* RRYCardEditorView.m */,
+				47FEED631CB7992F009B65B0 /* RRYCard.h */,
+				47013DA11CBB3130008D90B8 /* RRYCard.m */,
+				4709B4CD1CBF394A00D7D842 /* RRYCardText.h */,
+				4709B4CE1CBF394A00D7D842 /* RRYCardText.m */,
+				47FEED661CB7A842009B65B0 /* RRYCardUtilitiesView.h */,
+				47FEED671CB7A842009B65B0 /* RRYCardUtilitiesView.m */,
+				47FEAFD01CB90B4200DC1176 /* RRYCardTextEditor.h */,
+				47FEAFD11CB90B4200DC1176 /* RRYCardTextEditor.m */,
+				470C4EE51CBE525A0048431A /* RRYColorPickerView.h */,
+				470C4EE61CBE525A0048431A /* RRYColorPickerView.m */,
+			);
+			name = CardsView;
+			sourceTree = "<group>";
+		};
+		5C25B4F0C14A654CCF4B5D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4709B4D01CBFA40700D7D842 /* QuartzCore.framework */,
+				471843981CBCFD50006B260A /* CoreText.framework */,
+				AE9FC1E3D5E84F10FA968ACA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62C72FB959E9B8E0FD5AF2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EA1BE1F4D2267570B2664C6 /* Pods.debug.xcconfig */,
+				8EB4D984F287BF10EF26B0E1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F9221D1CB34C76003EA01A /* RRYPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F9224B1CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrint" */;
+			buildPhases = (
+				8FF24EBEDA8DFFA2EFF59FB1 /* Check Pods Manifest.lock */,
+				47F9221A1CB34C76003EA01A /* Sources */,
+				47F9221B1CB34C76003EA01A /* Frameworks */,
+				47F9221C1CB34C76003EA01A /* Resources */,
+				535BCFEBAF759886211693F3 /* Embed Pods Frameworks */,
+				0204E880B0203E0565B2875D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRYPrint;
+			productName = RRYPrint;
+			productReference = 47F9221E1CB34C76003EA01A /* RRYPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F922361CB34C76003EA01A /* RRYPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F9224E1CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrintTests" */;
+			buildPhases = (
+				47F922331CB34C76003EA01A /* Sources */,
+				47F922341CB34C76003EA01A /* Frameworks */,
+				47F922351CB34C76003EA01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F922391CB34C76003EA01A /* PBXTargetDependency */,
+			);
+			name = RRYPrintTests;
+			productName = RRYPrintTests;
+			productReference = 47F922371CB34C76003EA01A /* RRYPrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F922411CB34C76003EA01A /* RRYPrintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F922511CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrintUITests" */;
+			buildPhases = (
+				47F9223E1CB34C76003EA01A /* Sources */,
+				47F9223F1CB34C76003EA01A /* Frameworks */,
+				47F922401CB34C76003EA01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F922441CB34C76003EA01A /* PBXTargetDependency */,
+			);
+			name = RRYPrintUITests;
+			productName = RRYPrintUITests;
+			productReference = 47F922421CB34C76003EA01A /* RRYPrintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F922161CB34C76003EA01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = rry;
+				TargetAttributes = {
+					47F9221D1CB34C76003EA01A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					47F922361CB34C76003EA01A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47F9221D1CB34C76003EA01A;
+					};
+					47F922411CB34C76003EA01A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47F9221D1CB34C76003EA01A;
+					};
+				};
+			};
+			buildConfigurationList = 47F922191CB34C76003EA01A /* Build configuration list for PBXProject "RRYPrint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F922151CB34C76003EA01A;
+			productRefGroup = 47F9221F1CB34C76003EA01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F9221D1CB34C76003EA01A /* RRYPrint */,
+				47F922361CB34C76003EA01A /* RRYPrintTests */,
+				47F922411CB34C76003EA01A /* RRYPrintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F9221C1CB34C76003EA01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F922311CB34C76003EA01A /* LaunchScreen.storyboard in Resources */,
+				47F9222E1CB34C76003EA01A /* Assets.xcassets in Resources */,
+				47FF4FA11CC07E780061C998 /* Card.plist in Resources */,
+				47F9222C1CB34C76003EA01A /* Main.storyboard in Resources */,
+				470C4EE41CBDEDB20048431A /* Fonts.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F922351CB34C76003EA01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F922401CB34C76003EA01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0204E880B0203E0565B2875D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		535BCFEBAF759886211693F3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF24EBEDA8DFFA2EFF59FB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F9221A1CB34C76003EA01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096A23E11CD349B0006CD3C8 /* RRYUserInfoCartBtnCell.m in Sources */,
+				4703764D1CB5F62E0099C015 /* RRYBaseNavigationController.m in Sources */,
+				47FEED591CB787BA009B65B0 /* RRYCardDisplayView.m in Sources */,
+				470376651CB5FA8F0099C015 /* RRYUserInfoViewController.m in Sources */,
+				4703767E1CB601D10099C015 /* SDCollectionViewCell.m in Sources */,
+				470376841CB6063E0099C015 /* RRYBaseView.m in Sources */,
+				47FEAFD21CB90B4200DC1176 /* RRYCardTextEditor.m in Sources */,
+				470376911CB63A650099C015 /* RRYCategoryCell.m in Sources */,
+				4703769D1CB666EC0099C015 /* RRYCartUserView.m in Sources */,
+				4701EB931CC5BEE7003D12E1 /* RRYNetworkTool.m in Sources */,
+				4701EB9D1CC62A1D003D12E1 /* RRYProgressHUD.m in Sources */,
+				470376971CB648110099C015 /* RRYCartCell.m in Sources */,
+				47F9225F1CB35457003EA01A /* RRYBaseModel.m in Sources */,
+				4701EB9A1CC60194003D12E1 /* RRYTemplateList.m in Sources */,
+				47FEED461CB74B00009B65B0 /* RRYCardsWaterFallController.m in Sources */,
+				47FEED501CB77AFD009B65B0 /* RRYCardHeaderView.m in Sources */,
+				47FEED4A1CB75A60009B65B0 /* RRYBaseCollectionViewCell.m in Sources */,
+				4703767C1CB601D10099C015 /* TADotView.m in Sources */,
+				470C4EE71CBE525A0048431A /* RRYColorPickerView.m in Sources */,
+				4703765F1CB5FA750099C015 /* RRYHomeViewController.m in Sources */,
+				47FEED5F1CB78956009B65B0 /* RRYCardEditorView.m in Sources */,
+				470376621CB5FA820099C015 /* RRYCartViewController.m in Sources */,
+				47F9225C1CB35440003EA01A /* RRYBaseViewController.m in Sources */,
+				4709B4D81CBFAB4800D7D842 /* RRYCardSingleFace.m in Sources */,
+				47FEED531CB77B0B009B65B0 /* RRYCardFooterView.m in Sources */,
+				47FEAFC51CB8FB1400DC1176 /* RRYBaseTextField.m in Sources */,
+				47FEED4D1CB75A80009B65B0 /* RRYCardCell.m in Sources */,
+				47FEED561CB784C2009B65B0 /* RRYCardEditorController.m in Sources */,
+				4703767A1CB601D10099C015 /* TAAbstractDotView.m in Sources */,
+				47FE08441CC4D2E600620074 /* RRYLoginController.m in Sources */,
+				4703767B1CB601D10099C015 /* TAAnimatedDotView.m in Sources */,
+				4709B4CF1CBF394A00D7D842 /* RRYCardText.m in Sources */,
+				096A23DE1CD344C9006CD3C8 /* RRYUserInfoUserCell.m in Sources */,
+				4701EBA01CC6385F003D12E1 /* RRYCardTemplate.m in Sources */,
+				47FEAFCF1CB901D000DC1176 /* RRYBaseTableView.m in Sources */,
+				471843811CBC9E2C006B260A /* UIView+GetController.m in Sources */,
+				471843841CBCE532006B260A /* RRYFont.m in Sources */,
+				470376941CB63C150099C015 /* RRYAdsScrollCell.m in Sources */,
+				47F922261CB34C76003EA01A /* AppDelegate.m in Sources */,
+				47F7C42B1CCB257E0069110B /* RRYCartDealView.m in Sources */,
+				470376871CB606B50099C015 /* RRYCategoryView.m in Sources */,
+				470376531CB5F6DA0099C015 /* RRYRootTabBarController.m in Sources */,
+				4709B4D51CBFAA6400D7D842 /* RRYCardModel.m in Sources */,
+				47FE08411CC4CF4000620074 /* RRYMineTable.m in Sources */,
+				4703767F1CB601D10099C015 /* SDCycleScrollView.m in Sources */,
+				47FEAFCC1CB8FCB800DC1176 /* NSString+ZLStringSize.m in Sources */,
+				47FEED681CB7A842009B65B0 /* RRYCardUtilitiesView.m in Sources */,
+				47013DA21CBB3130008D90B8 /* RRYCard.m in Sources */,
+				470376501CB5F6800099C015 /* RRYBaseTabBarController.m in Sources */,
+				4703767D1CB601D10099C015 /* TAPageControl.m in Sources */,
+				4703768A1CB60CC10099C015 /* RRYBaseButton.m in Sources */,
+				4709B4DB1CBFABE700D7D842 /* RRYCardTextModel.m in Sources */,
+				4703768E1CB63A440099C015 /* RRYBaseTableViewCell.m in Sources */,
+				4701EB971CC5CCFD003D12E1 /* RRYProductTypeList.m in Sources */,
+				470376581CB5F9C10099C015 /* RRYRootNavigationController.m in Sources */,
+				47F922231CB34C76003EA01A /* main.m in Sources */,
+				4703769A1CB6491F0099C015 /* RRYCartUserCell.m in Sources */,
+				470376801CB601D10099C015 /* UIView+SDExtension.m in Sources */,
+				47FE083E1CC4CC9000620074 /* LBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F922331CB34C76003EA01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9223C1CB34C76003EA01A /* RRYPrintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F9223E1CB34C76003EA01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F922471CB34C76003EA01A /* RRYPrintUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F922391CB34C76003EA01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F9221D1CB34C76003EA01A /* RRYPrint */;
+			targetProxy = 47F922381CB34C76003EA01A /* PBXContainerItemProxy */;
+		};
+		47F922441CB34C76003EA01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F9221D1CB34C76003EA01A /* RRYPrint */;
+			targetProxy = 47F922431CB34C76003EA01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F9222A1CB34C76003EA01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F9222B1CB34C76003EA01A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F9222F1CB34C76003EA01A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F922301CB34C76003EA01A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F922491CB34C76003EA01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F9224A1CB34C76003EA01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F9224C1CB34C76003EA01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA1BE1F4D2267570B2664C6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RRYPrint/RRYHeaders.pch";
+				INFOPLIST_FILE = RRYPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47F9224D1CB34C76003EA01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB4D984F287BF10EF26B0E1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RRYPrint/RRYHeaders.pch";
+				INFOPLIST_FILE = RRYPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47F9224F1CB34C76003EA01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRYPrintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRYPrint.app/RRYPrint";
+			};
+			name = Debug;
+		};
+		47F922501CB34C76003EA01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RRYPrintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RRYPrint.app/RRYPrint";
+			};
+			name = Release;
+		};
+		47F922521CB34C76003EA01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRYPrintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRYPrint;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47F922531CB34C76003EA01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RRYPrintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rry.RRYPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RRYPrint;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F922191CB34C76003EA01A /* Build configuration list for PBXProject "RRYPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F922491CB34C76003EA01A /* Debug */,
+				47F9224A1CB34C76003EA01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F9224B1CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F9224C1CB34C76003EA01A /* Debug */,
+				47F9224D1CB34C76003EA01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F9224E1CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F9224F1CB34C76003EA01A /* Debug */,
+				47F922501CB34C76003EA01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F922511CB34C76003EA01A /* Build configuration list for PBXNativeTarget "RRYPrintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F922521CB34C76003EA01A /* Debug */,
+				47F922531CB34C76003EA01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F922161CB34C76003EA01A /* Project object */;
+}
